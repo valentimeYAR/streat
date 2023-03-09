@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './styles/cardcategories.module.css'
+import s from './cardcategories.module.css'
 const CardCategories = () => {
     return (
         <ul className={s.list}>

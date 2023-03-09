@@ -1,4 +1,11 @@
 .container{
     width: 1200px;
     margin: 0 auto;
+
+    margin-top: 50px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

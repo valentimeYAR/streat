@@ -11,7 +11,7 @@
 }
 .wrapper{
     background-color: #fff;
-    width: 500px;
+    max-width: 500px;
     height: 350px;
     padding: 20px;
     position: relative;
@@ -52,6 +52,8 @@
 }
 .cityElement{
     color: cornflowerblue;
+    margin-right: 30px;
+
 }
 .cityElement:hover{
     color: red;

@@ -1,5 +1,5 @@
 .container{
-    width: 400px;
+    width: 350px;
     height: 500px;
     background-color: red;
     display: flex;
@@ -10,7 +10,8 @@
     background-size: cover;
 }
 .title{
-    font-size: 25px;
-    color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
     margin-bottom: 25px;
 }
