@@ -1,0 +1,59 @@
+.container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100vh;
+}
+.wrapper{
+    background-color: #fff;
+    width: 500px;
+    height: 350px;
+    padding: 20px;
+    position: relative;
+}
+.close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.city{
+    font-weight: 600;
+}
+.center input{
+    width: 470px;
+    height: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    color: gray;
+    border: 2px solid gray;
+    outline: none;
+}
+.center input:focus{
+    border: 2px solid darkslategrey;
+    transition: 300ms;
+}
+.bottom ul {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px 0;
+    flex-wrap: wrap;
+    max-height: 200px;
+    width: 100%;
+}
+.cityElement{
+    color: cornflowerblue;
+}
+.cityElement:hover{
+    color: red;
+    cursor: pointer;
+}

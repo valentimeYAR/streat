@@ -1,0 +1,40 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 20px 0;
+}
+.center{
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}
+.left{
+    position: relative;
+    cursor: pointer;
+}
+.left::after{
+    content: '';
+    background-image: url('https://cdn.icon-icons.com/icons2/685/PNG/512/down_icon-icons.com_61209.png');
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: -30px;
+    top: 2px;
+    background-size: cover;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.bLeft, .bRight{
+    display: flex;
+    gap: 0 15px;
+}
